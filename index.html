@@ -19,9 +19,18 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/css/pikaday.min.css"
     />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="splash.css" />
   </head>
 
-  <body>
+  <body onload="splash(3000)">
+    <div id="splashscreen">
+      <div class="wrapper typewriter">
+        <h1 class="typing">
+          Hi! This is Priyank Mishra.
+        </h1>
+        <br />
+      </div>
+    </div>
     <nav
       class="navbar navbar-dark navbar-expand-lg fixed-top bg-dark portfolio-navbar"
     >
@@ -76,12 +85,7 @@
             <h2>Special Skills</h2>
           </div>
           <div class="row">
-            <div
-              class="col-md-4"
-              data-aos="fade-right"
-              data-aos-offset="300"
-              data-aos-easing="ease-in-sine"
-            >
+            <div class="col-md-4" data-aos="fade-right">
               <div class="card special-skill-item border-0">
                 <div class="card-header bg-transparent border-0">
                   <i class="icon ion-ios-star-outline"></i>
@@ -96,12 +100,7 @@
                 </div>
               </div>
             </div>
-            <div
-              class="col-md-4"
-              data-aos="zoom-in"
-              data-aos-offset="300"
-              data-aos-easing="ease-in-sine"
-            >
+            <div class="col-md-4" data-aos="zoom-in">
               <div class="card special-skill-item border-0">
                 <div class="card-header bg-transparent border-0">
                   <i class="icon ion-ios-lightbulb-outline"></i>
@@ -116,12 +115,7 @@
                 </div>
               </div>
             </div>
-            <div
-              class="col-md-4"
-              data-aos="fade-left"
-              data-aos-offset="300"
-              data-aos-easing="ease-in-sine"
-            >
+            <div class="col-md-4" data-aos="fade-left">
               <div class="card special-skill-item border-0">
                 <div class="card-header bg-transparent border-0">
                   <i class="icon ion-ios-gear-outline"></i>
@@ -171,5 +165,6 @@
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/pikaday.min.js"></script>
     <script src="assets/js/theme.js"></script>
+    <script src="splash.js"></script>
   </body>
 </html>
