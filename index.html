@@ -1,173 +1,215 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta
       name="viewport"
-      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-    <title>Home - Brand</title>
-
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <link
       rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Lato:300,400,700"
+      href="\node_modules\bootstrap\dist\css\bootstrap.min.css"
     />
-    <link rel="stylesheet" href="assets/fonts/ionicons.min.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/css/pikaday.min.css"
-    />
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <link rel="stylesheet" href="splash.css" />
+    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.css">
+    <link rel="stylesheet" href="\css\index-css.css" />
+    
+    <title>Priyank Mishra</title>
   </head>
 
-  <body onload="splash(3000)">
-    <div id="splashscreen">
-      <div class="wrapper typewriter">
-        <p class="typing">
-          Hi! This is Priyank Mishra.
-        </p>
-        <p class="typing">
-          Welcome to my Portfolio!
-        </p>
-        <br />
+  <body>
+    <header>
+      <nav
+        class="navbar navbar-dark navbar-expand-lg fixed-top portfolio-navbar"
+      >
+        <div class="container">
+          <a class="navbar-brand logo" href="index.html"><b>Priyank Mishra</b></a
+          ><button
+            data-toggle="collapse"
+            class="navbar-toggler"
+            data-target="#navbarNav"
+          >
+            <span class="sr-only">Toggle navigation</span
+            ><span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="nav navbar-nav ml-auto">
+              <li class="nav-item" role="presentation">
+                <a class="nav-link active" href="index.html"><b>Home</b></a>
+              </li>
+              <li class="nav-item" role="presentation">
+                <a class="nav-link" href="projects.html"><b>Projects</b></a>
+              </li>
+              <li class="nav-item" role="presentation">
+                <a class="nav-link" href="cv.html"><b>CV</b></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="jumbotron-img-back">
+      <div class="jumbotron jumbotron-main-top">
+        <div class="container">
+          <div class="row row-header">
+            <div class="col-12 col-sm-8">
+              <h1>Priyank Mishra</h1>
+              <p>
+                I am <strong>Priyank Mishra</strong>.I am a 1st-year
+                undergraduate student pursuing my B.Tech in CSE from National
+                Institute of Technology Patna. Iam a young and aspiring Web
+                Developer. I am a techno freak UI/UX designer and can develop
+                cross-plaform Apps. Iam also an budding technical content
+                writer.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-    <nav
-      class="navbar navbar-dark navbar-expand-lg fixed-top bg-dark portfolio-navbar"
-    >
-      <div class="container">
-        <a class="navbar-brand logo" href="#"><b>Priyank Mishra</b></a
-        ><button
-          data-toggle="collapse"
-          class="navbar-toggler"
-          data-target="#navbarNav"
-        >
-          <span class="sr-only">Toggle navigation</span
-          ><span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="nav navbar-nav ml-auto">
-            <li class="nav-item" role="presentation">
-              <a class="nav-link active" href="index.html">Home</a>
-            </li>
-            <li class="nav-item" role="presentation">
-              <a class="nav-link" href="projects-grid-cards.html">Projects</a>
-            </li>
-            <li class="nav-item" role="presentation">
-              <a class="nav-link" href="cv.html">CV</a>
-            </li>
-          </ul>
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-auto" style="color: #167f94;">
+          <h2>Special Skills</h2>
         </div>
       </div>
-    </nav>
-    <main class="page lanidng-page">
-      <section class="portfolio-block block-intro">
-        <div class="container">
-          <div
-            class="avatar"
-            style="background-image: url('assets/img/avatars/avatar.jpg');"
-          ></div>
-          <div class="about-me">
-            <p>
-              Hello! I am <strong>Priyank Mishra</strong>.I am a 1st-year
-              undergraduate student pursuing my B.Tech in CSE from National
-              Institute of Technology Patna. Iam a young and aspiring Web
-              Developer. I am a techno freak UI/UX designer and can develop
-              cross-plaform Apps. Iam also an budding technical writer and a
-              creative writer.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      <section class="portfolio-block skills">
-        <div class="container">
-          <div class="heading" data-aos="fade-up">
-            <h2>Special Skills</h2>
-          </div>
-          <div class="row">
-            <div class="col-md-4" data-aos="fade-right">
-              <div class="card special-skill-item border-0">
-                <div class="card-header bg-transparent border-0">
-                  <i class="icon ion-ios-star-outline"></i>
-                </div>
-                <div class="card-body">
-                  <h3 class="card-title">Web Design</h3>
-                  <p class="card-text">
-                    Iam well versed with basic concepts of HTML5, CSS3 and
-                    Javascript. Iam Also able to work efficiently with Node.js,
-                    Angular, gatsby.js and React.js.
-                  </p>
-                </div>
-              </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card border-0" style="margin-top: 10px;">
+            <div class="card-header bg-transparent border-0" style="text-align: center; color: #167f94;">
+                <i class="fas fa-2x fa-desktop"></i>
             </div>
-            <div class="col-md-4" data-aos="zoom-in">
-              <div class="card special-skill-item border-0">
-                <div class="card-header bg-transparent border-0">
-                  <i class="icon ion-ios-lightbulb-outline"></i>
-                </div>
-                <div class="card-body">
-                  <h3 class="card-title">Android Developer</h3>
-                  <p class="card-text">
-                    Iam proficient with use of XML and java for android
-                    development. As well as i can also develop cross-platform
-                    hybrid apps via use of flutter and dart.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4" data-aos="fade-left">
-              <div class="card special-skill-item border-0">
-                <div class="card-header bg-transparent border-0">
-                  <i class="icon ion-ios-gear-outline"></i>
-                </div>
-                <div class="card-body">
-                  <h3 class="card-title">Graphic Designing</h3>
-                  <p class="card-text">
-                    Iam capable of creating illustration via use of Adobe
-                    Illustrator and Corel Draw. I can also make web and app
-                    designs with Figma and Adobe XD.
-                  </p>
-                </div>
-              </div>
+            <div class="card-body">
+              <h3 class="card-title" style="text-align: center; color: #167f94;">Web Design</h3>
+              <p class="card-text" style="text-align: justify;">
+                Iam well versed with basic concepts of HTML5, CSS3 and
+                Javascript. Iam Also able to work efficiently with Node.js,
+                Angular, gatsby.js and React.js.
+              </p>
             </div>
           </div>
         </div>
-      </section>
-    </main>
-    <footer class="page-footer">
+        <div class="col-md-4 ">
+          <div class="card border-0"style="margin-top: 10px;">
+            <div class="card-header bg-transparent border-0" style="text-align: center; color: #167f94;">
+                <i class="fab fa-android fa-2x"></i>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title" style="text-align: center; color: #167f94;">Android Developer</h3>
+              <p class="card-text" style="text-align: justify;">
+                Iam proficient with use of XML and java for android
+                development. As well as i can also develop cross-platform
+                hybrid apps via use of flutter and dart.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card border-0" style="margin-top: 10px;">
+            <div class="card-header bg-transparent border-0" style="text-align: center; color: #167f94;"">
+                <i class="fab fa-sketch fa-2x" ></i>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title" style="text-align: center; color: #167f94;">Graphic Designing</h3>
+              <p class="card-text" style="text-align: justify;">
+                Iam capable of creating illustration via use of Adobe
+                Illustrator and Corel Draw. I can also make web and app
+                designs with Figma and Adobe XD.
+              </p>
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+            
+    </div>
+    <div class="row justify-content-center" style="margin-top: 20px;">
+      <div class="col-auto" style="color: #167f94;">
+        <h2>Skill and Contacts</h2>
+      </div>
+    </div>
+    <div class="container" >
+      <div class="row " style="margin-top: 10px; margin-bottom: 10px;">
+          <div class="col-12 col-md-6">
+              <div class="card h-100" style="padding: 30px;">
+                  <h2 style="color: #167f94;">Skills</h2>
+                  <h5>Web Dvelopment</h5>
+                  <div class="progress">
+                      <div class="progress-bar bg-green" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width: 65%;"><span class="sr-only">65%</span></div>
+                  </div>
+                  <h5>Android Development</h5>
+                  <div class="progress">
+                      <div class="progress-bar bg-green" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;"><span class="sr-only">75%</span></div>
+                  </div>
+                  <h5>Machine Learning</h5>
+                  <div class="progress">
+                      <div class="progress-bar bg-green" aria-valuenow="33" aria-valuemin="0" aria-valuemax="100" style="width: 33%;"><span class="sr-only">33%</span></div>
+                  </div>
+              </div>
+          </div>
+          <div class="col-12 col-md-6 ">
+              <div class="card" style="padding: 30px;">
+                  <h2 style="color: #167f94;">Contact Info</h2><br>
+                  <div class="row">
+                    <div class="col-1"><i class="fas fa-calendar-alt fa-lg" style="color: #167f94;"></i></div>
+                    <div class="col-9"><h6>17/10/2002</h6></div>
+                </div>
+                <div class="row">
+                    <div class="col-1"><i class="fas fa-user-graduate fa-lg" style="color: #167f94;"></i></div>
+                    <div class="col-9"><h6>Priyank Mishra</h6></div>
+                </div>
+                <div class="row">
+                    <div class="col-1"><i class="fas fa-mobile-alt fa-lg" style="color: #167f94;"></i></div>
+                    <div class="col-9"><h6>+91 6386015214</h6></div>
+                </div>
+                <div class="row">
+                  <div class="col-1"><i class="fab fa-whatsapp fa-lg" style="color: #167f94;"></i></div>
+                  <div class="col-9"><h6>+91 7668491191</h6></div>
+              </div>
+                <div class="row">
+                    <div class="col-1"><i class="fas fa-envelope fa-lg" style="color: #167f94;"></i></div>
+                    <div class="col-9"><h6>mishrapriyank17@gmail.com</a></h6></div>
+                </div>
+              </div>
+          </div>
+      </div>
+  </div>
+    <footer class="footer-main">
+        <div class="container">
+            <div class="row justify-content-center " style="text-align: justify;">
+                <div class=" justify-content-center" style="text-align: justify;">
+              <a href="https://www.facebook.com/priyank.mishra.14473" class="social-icons"
+                ><i class="fab fa-facebook fa-2x"></i></a
+              ><a href="https://www.github.com/princepriyank" class="social-icons"
+                ><i class="fab fa-2x fa-github"></i></a
+              ><a href="https://www.instagram.com/priyank_17_2002/"class="social-icons"
+                ><i class="fab fa-2x fa-instagram"></i></a
+              ><a href="www.linkedin.com/in.priyank-mishra-11352319b"class="social-icons"
+                ><i class="fab fa-2x fa-linkedin"></i
+              ></a>
+    
+              <a href="https://yourcsguidebro.blogspot.com/"class="social-icons">
+                <i class="fab fa-blogger-b"></i
+              ></a>
+              <a href="https://www.yourquote.in/priyank-mishra-ntsx/quotes" class="social-icons"
+                ><i class="fab fa-2x fa-yandex-international"></i
+              ></a>
+            </div>
+            </div>
+          </div>
       <div class="container">
-        <div class="social-icons">
-          <a href="https://www.facebook.com/priyank.mishra.14473"
-            ><i class="icon ion-social-facebook"></i></a
-          ><a href="https://www.github.com/princepriyank"
-            ><i class="icon ion-social-github"></i></a
-          ><a href="https://www.instagram.com/priyank_17_2002/"
-            ><i class="icon ion-social-instagram-outline"></i></a
-          ><a href="www.linkedin.com/in.priyank-mishra-11352319b"
-            ><i class="icon ion-social-linkedin"></i
-          ></a>
-
-          <a href="https://yourcsguidebro.blogspot.com/">
-            <i class="fab fa-blogger-b"></i
-          ></a>
-          <a href="https://www.yourquote.in/priyank-mishra-ntsx/quotes"
-            ><i class="icon ion-social-hackernews"></i
-          ></a>
+        <div class="row justify-content-center">
+          <div class="col-auto"></div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-auto" style="color: white;">
+            <p>© Copyright 2020 Priyank Mishra</p>
+          </div>
         </div>
       </div>
     </footer>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/pikaday.min.js"></script>
-    <script src="assets/js/theme.js"></script>
-    <script src="splash.js"></script>
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
   </body>
 </html>

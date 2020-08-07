@@ -1,0 +1,27 @@
+a {
+  color: white;
+  display: inline-block;
+  padding: 5px;
+}
+a:hover {
+  color: rgb(232, 253, 255);
+  transform: translateY(-10px);
+}
+body {
+  margin-top: 50px;
+  background-color: #bde7f0;
+}
+.portfolio-navbar {
+  background-color: #167f94;
+}
+.card {
+  border-radius: 7px;
+  box-shadow: rgba(0, 0, 0, 0.7);
+  margin: 10px;
+}
+.footer-main {
+  background-color: #167f94;
+  color: white;
+  padding-top: 10px;
+  margin-top: 20px;
+}
