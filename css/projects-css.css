@@ -19,6 +19,9 @@ body {
   box-shadow: rgba(0, 0, 0, 0.5);
   margin: 10px;
 }
+.card-block {
+  padding: 30px;
+}
 .footer-main {
   background-color: #167f94;
   color: white;
