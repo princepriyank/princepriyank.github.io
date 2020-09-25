@@ -31,10 +31,11 @@ a {
   display: inline-block;
   padding: 5px;
 }
-a:hover {
+.social-icons :hover {
   color: rgb(232, 253, 255);
   transform: translateY(-10px);
 }
+
 .bg-green {
   background-color: #167f94;
 }
