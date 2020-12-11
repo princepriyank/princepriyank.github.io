@@ -34,6 +34,7 @@ body {
   border-radius: 50px;
   top: 10;
   right:0;
+  z-index: 20;
 }
 .download:hover{
   margin: 10px;
